@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  height: 100%;
+  color: white;
+  background-color: rgb(4, 15, 115);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+nav a {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: rgb(241, 241, 211);
+  padding: 0.5em 1em;
+  border: 2px solid grey;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 1em;
+}
+
+nav a:hover {
+  color: white;
+  background-color: rgb(70, 180, 94);
+}
+
+nav a:active {
+  transform: translateY(0.5em);
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  justify-content: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+section {
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 0.3em;
+}
+
+.layout {
+  background-color: rgb(70, 180, 94);
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.layout h2 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  margin: 1em auto;
+}
+
+.layout img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.meer {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.meer:hover {
+  background-color: gray;
+}
+
+.aanwezig {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.aanwezig h3 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+
+.aanwezig ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: black;
+  margin-top: 1em;
+}
+
+.aanwezig li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.aanwezig span {
+  font-style: italic;
+}
+
+.hoeveelheid {
+  color: red;
+  font-weight: bold;
+}
+
+.over-ons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.overons-foto {
+  display: flex;
+  align-items: center;
+  background-color: rgb(70, 180, 94);
+  padding: 0.5em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.overons-foto img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.overons-foto p {
+  font-size: 16px;
+  padding: 0.8em;
+  text-align: left;
+}
+
+footer {
+  background-color: rgb(70, 180, 94);
+  padding: 1em;
+  font-weight: bold;
+}
